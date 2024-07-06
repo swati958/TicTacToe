@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.square{
+  background: rgb(193, 209, 22);
+  height: 100px;
+  width: 100px;
+  border: 1px solid rgb(30, 204, 68);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+
+} 
+.board-row::after{
+  clear: both;
+  content: '';
+  display: table;
+}
